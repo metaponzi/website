@@ -13,6 +13,31 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<style>
+			.coin-container {
+			  display: inline-block;
+			  font-size: 14px;
+			  float: left;
+			}
+
+			.icon-container {
+				width: 40px;
+				display: inline-block;
+				text-align: center;
+			}
+
+			img.coin {
+			  height: 35px;
+			}
+
+			.address {
+				font-family: monospace;
+				background-color: gray;
+				padding: 5px;
+			}
+
+		</style>
 	</head>
 	<body>
 
@@ -20,27 +45,31 @@
 			<header id="header" style="max-width: 600px">
 				<h1>Metaponzi</h1>
 
-				<p>Inspired by PonzICO, Useless Ethereum Token, Fuck Token and bullshit.money.</p>
+				<p>Developing <a href="https://docs.google.com/document/d/1EhOGGMuyhmmfvyOnexBxYSa54RmjNyq86tZcAVaOqfw/edit#">smart contract</a> for the upcoming ICO.</p>
 
-				<p>Developing <a href="https://docs.google.com/document/d/1EhOGGMuyhmmfvyOnexBxYSa54RmjNyq86tZcAVaOqfw/edit#">smart contract</a> that will govern the token generation event.</p>
 
-				<p><i>(lawyers told us not to use the word ICO)</i></p>
+				<p>Co-creating a <a href="https://docs.google.com/document/d/1LzJioclAJnbScpPi24Tjd3fHXp9B3dKdRvOcInsM32E/edit?usp=sharing">series of events</a> in Europe.</p>
 
-				<p>In September we are attending a <a href="https://docs.google.com/document/d/1LzJioclAJnbScpPi24Tjd3fHXp9B3dKdRvOcInsM32E/edit?usp=sharing">series of events</a> in Europe - come and say hi!</p>
-
-				<p><i>(connecting with investors and community)</i></p>
+				<p>Seeking pre-ICO investment to cover legal costs.
 			</header>
 
 		<!-- Signup Form -->
 
-			<p>
-			  <div class="coin-container"><img class="coin" src="images/bitcoin-logo.png"></div>
-			  BTC: <input value="17zVA88xk4Ma7Cza4NXGYcP4Z1Qz7TUdzV" style="color: black; padding: 5px; width: 560px;">
-			</p>
-			<p>
-			  <div class="coin-container"><img class="coin" src="images/ethereum-logo.png"></div>
-			  ETH: <input value="0x85A363699C6864248a6FfCA66e4a1A5cCf9f5567" style="color: black; padding: 5px; width: 560px;">
-			</p>
+
+			  <div class="coin-container">
+			  	<div class="icon-container">
+			  		<img class="coin" src="images/bitcoin-logo.png">
+			  	</div>
+			  	<span class="address">17zVA88xk4Ma7Cza4NXGYcP4Z1Qz7TUdzV</span>
+			  </div>  
+
+
+			  <div class="coin-container">
+			    <div class="icon-container">
+			  		<img class="coin" src="images/ethereum-logo.png">
+			  	</div>
+			  	<span class="address">0x85A363699C6864248a6FfCA66e4a1A5cCf9f5567</span>
+			  </div>
 
 
 <!-- 			<form id="signup-form" method="post" action="#">
@@ -57,7 +86,7 @@
 					<li><a href="mailto:email@genesis.re" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Metaponzi</li><li>Web design: <a href="http://html5up.net">HTML5 UP</a></li><li>always read the <a href="terms.html">small print</a></li>
+					<li>&copy; Metaponzi</li><li>Web design: <a href="http://html5up.net">HTML5 UP</a></li><li>always read the <a href="/terms">small print</a></li>
 				</ul>
 			</footer>
 
